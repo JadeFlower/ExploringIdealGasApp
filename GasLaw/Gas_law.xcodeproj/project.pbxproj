@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D53FA1EE5E768003019BC /* info-with-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 520D53F61EE5E768003019BC /* info-with-circle.png */; };
+		520D53FB1EE5E768003019BC /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 520D53F71EE5E768003019BC /* calculator.png */; };
+		520D53FC1EE5E768003019BC /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 520D53F81EE5E768003019BC /* eye.png */; };
+		520D53FD1EE5E768003019BC /* lab-flask.png in Resources */ = {isa = PBXBuildFile; fileRef = 520D53F91EE5E768003019BC /* lab-flask.png */; };
+		520D53FF1EE5E866003019BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520D53FE1EE5E866003019BC /* Assets.xcassets */; };
+		521095A11ECCBEE900CF7D79 /* TempMeter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 521095A01ECCBEE900CF7D79 /* TempMeter.jpg */; };
+		521095A31ECCC36900CF7D79 /* PressurePicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 521095A21ECCC36900CF7D79 /* PressurePicture.png */; };
+		525E15BA1ECA27EC0064FADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15B91ECA27EC0064FADC /* AppDelegate.swift */; };
+		525E15BC1ECA27EC0064FADC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15BB1ECA27EC0064FADC /* FirstViewController.swift */; };
+		525E15BE1ECA27EC0064FADC /* VisualizerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15BD1ECA27EC0064FADC /* VisualizerVC.swift */; };
+		525E15C11ECA27EC0064FADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525E15BF1ECA27EC0064FADC /* Main.storyboard */; };
+		525E15C61ECA27EC0064FADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525E15C41ECA27EC0064FADC /* LaunchScreen.storyboard */; };
+		525E15D11ECA27EC0064FADC /* Gas_lawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15D01ECA27EC0064FADC /* Gas_lawTests.swift */; };
+		525E15DC1ECA27EC0064FADC /* Gas_lawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E15DB1ECA27EC0064FADC /* Gas_lawUITests.swift */; };
+		525E15EE1ECA32210064FADC /* PlateP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525E15ED1ECA32210064FADC /* PlateP.jpg */; };
+		526D11A31ED73F8C00B75774 /* soundconst.caf in Resources */ = {isa = PBXBuildFile; fileRef = 526D11A11ED73F8C00B75774 /* soundconst.caf */; };
+		526D11A41ED73F8C00B75774 /* soundvar.caf in Resources */ = {isa = PBXBuildFile; fileRef = 526D11A21ED73F8C00B75774 /* soundvar.caf */; };
+		52DC4FB31ED5ED1200418D14 /* Chrysalis Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FB21ED5ED1200418D14 /* Chrysalis Logo.png */; };
+		52DC4FB51ED60A7900418D14 /* PlacementPSITempL.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FB41ED60A7900418D14 /* PlacementPSITempL.png */; };
+		52DC4FB71ED6121700418D14 /* NeedleL.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FB61ED6121700418D14 /* NeedleL.png */; };
+		52DC4FB91ED6150B00418D14 /* Molecules Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FB81ED6150B00418D14 /* Molecules Copy.png */; };
+		52DC4FBC1ED61BDF00418D14 /* PlacementPSITempH.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FBA1ED61BDF00418D14 /* PlacementPSITempH.png */; };
+		52DC4FBD1ED61BDF00418D14 /* NeedleH.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DC4FBB1ED61BDF00418D14 /* NeedleH.png */; };
+		5714FA551EDDD7050058989E /* KineticMolecularTheoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714FA541EDDD7050058989E /* KineticMolecularTheoryViewController.swift */; };
+		5714FA571EDDDB330058989E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714FA561EDDDB330058989E /* InfoViewController.swift */; };
+		5714FA591EDDDD170058989E /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714FA581EDDDD170058989E /* AnimateViewController.swift */; };
+		5714FA5B1EDDDD9D0058989E /* TemperatureAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714FA5A1EDDDD9D0058989E /* TemperatureAnimation.swift */; };
+		5714FA5D1EDDEC210058989E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5714FA5C1EDDEC210058989E /* AboutViewController.swift */; };
+		57567AA81EF16F13003D71FF /* negsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57567AA61EF16F13003D71FF /* negsound.wav */; };
+		57567AA91EF16F13003D71FF /* possound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57567AA71EF16F13003D71FF /* possound.wav */; };
+		57567AB51EF1C5BF003D71FF /* Molecules.png in Resources */ = {isa = PBXBuildFile; fileRef = 57567AB41EF1C5BF003D71FF /* Molecules.png */; };
+		57D177EA1EDF058F00BBEF61 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D177E91EDF058F00BBEF61 /* constants.swift */; };
+		57D177F11EDF2A8800BBEF61 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177F01EDF2A8800BBEF61 /* GoogleMobileAds.framework */; };
+		57D177F31EDF2ABB00BBEF61 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177F21EDF2ABB00BBEF61 /* EventKitUI.framework */; };
+		57D177F51EDF2AC100BBEF61 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177F41EDF2AC100BBEF61 /* EventKit.framework */; };
+		57D177F71EDF2AC700BBEF61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177F61EDF2AC700BBEF61 /* AVFoundation.framework */; };
+		57D177F91EDF2ACB00BBEF61 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177F81EDF2ACB00BBEF61 /* AdSupport.framework */; };
+		57D177FB1EDF2AD400BBEF61 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177FA1EDF2AD400BBEF61 /* AudioToolbox.framework */; };
+		57D177FD1EDF2AE900BBEF61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177FC1EDF2AE900BBEF61 /* CoreGraphics.framework */; };
+		57D177FF1EDF2AEE00BBEF61 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D177FE1EDF2AEE00BBEF61 /* CoreTelephony.framework */; };
+		57D178011EDF2AF400BBEF61 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D178001EDF2AF400BBEF61 /* CoreMedia.framework */; };
+		57D178031EDF2AF900BBEF61 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D178021EDF2AF900BBEF61 /* MessageUI.framework */; };
+		57D178051EDF2AFE00BBEF61 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D178041EDF2AFE00BBEF61 /* StoreKit.framework */; };
+		57D178071EDF2B0200BBEF61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D178061EDF2B0200BBEF61 /* SystemConfiguration.framework */; };
+		57EB31431EF996D4004E1184 /* sound15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57EB31421EF996D4004E1184 /* sound15.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525E15CD1ECA27EC0064FADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525E15AE1ECA27EC0064FADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525E15B51ECA27EC0064FADC;
+			remoteInfo = Gas_law;
+		};
+		525E15D81ECA27EC0064FADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525E15AE1ECA27EC0064FADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525E15B51ECA27EC0064FADC;
+			remoteInfo = Gas_law;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520D53F61EE5E768003019BC /* info-with-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-with-circle.png"; sourceTree = "<group>"; };
+		520D53F71EE5E768003019BC /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		520D53F81EE5E768003019BC /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		520D53F91EE5E768003019BC /* lab-flask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lab-flask.png"; sourceTree = "<group>"; };
+		520D53FE1EE5E866003019BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521095A01ECCBEE900CF7D79 /* TempMeter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TempMeter.jpg; sourceTree = "<group>"; };
+		521095A21ECCC36900CF7D79 /* PressurePicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PressurePicture.png; sourceTree = "<group>"; };
+		525E15B61ECA27EC0064FADC /* Gas_law.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gas_law.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E15B91ECA27EC0064FADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525E15BB1ECA27EC0064FADC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		525E15BD1ECA27EC0064FADC /* VisualizerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerVC.swift; sourceTree = "<group>"; };
+		525E15C01ECA27EC0064FADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525E15C51ECA27EC0064FADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525E15C71ECA27EC0064FADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525E15CC1ECA27EC0064FADC /* Gas_lawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gas_lawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E15D01ECA27EC0064FADC /* Gas_lawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_lawTests.swift; sourceTree = "<group>"; };
+		525E15D21ECA27EC0064FADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525E15D71ECA27EC0064FADC /* Gas_lawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gas_lawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525E15DB1ECA27EC0064FADC /* Gas_lawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_lawUITests.swift; sourceTree = "<group>"; };
+		525E15DD1ECA27EC0064FADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525E15ED1ECA32210064FADC /* PlateP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PlateP.jpg; sourceTree = "<group>"; };
+		526D11A11ED73F8C00B75774 /* soundconst.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundconst.caf; sourceTree = "<group>"; };
+		526D11A21ED73F8C00B75774 /* soundvar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundvar.caf; sourceTree = "<group>"; };
+		52DC4FB21ED5ED1200418D14 /* Chrysalis Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chrysalis Logo.png"; sourceTree = "<group>"; };
+		52DC4FB41ED60A7900418D14 /* PlacementPSITempL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlacementPSITempL.png; sourceTree = "<group>"; };
+		52DC4FB61ED6121700418D14 /* NeedleL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeedleL.png; sourceTree = "<group>"; };
+		52DC4FB81ED6150B00418D14 /* Molecules Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Molecules Copy.png"; sourceTree = "<group>"; };
+		52DC4FBA1ED61BDF00418D14 /* PlacementPSITempH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlacementPSITempH.png; sourceTree = "<group>"; };
+		52DC4FBB1ED61BDF00418D14 /* NeedleH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NeedleH.png; sourceTree = "<group>"; };
+		5714FA541EDDD7050058989E /* KineticMolecularTheoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KineticMolecularTheoryViewController.swift; sourceTree = "<group>"; };
+		5714FA561EDDDB330058989E /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5714FA581EDDDD170058989E /* AnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		5714FA5A1EDDDD9D0058989E /* TemperatureAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureAnimation.swift; sourceTree = "<group>"; };
+		5714FA5C1EDDEC210058989E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		57567AA61EF16F13003D71FF /* negsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = negsound.wav; sourceTree = "<group>"; };
+		57567AA71EF16F13003D71FF /* possound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = possound.wav; sourceTree = "<group>"; };
+		57567AB41EF1C5BF003D71FF /* Molecules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Molecules.png; sourceTree = "<group>"; };
+		57D177E91EDF058F00BBEF61 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		57D177F01EDF2A8800BBEF61 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Gas_law/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		57D177F21EDF2ABB00BBEF61 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		57D177F41EDF2AC100BBEF61 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		57D177F61EDF2AC700BBEF61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		57D177F81EDF2ACB00BBEF61 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		57D177FA1EDF2AD400BBEF61 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		57D177FC1EDF2AE900BBEF61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57D177FE1EDF2AEE00BBEF61 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		57D178001EDF2AF400BBEF61 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		57D178021EDF2AF900BBEF61 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		57D178041EDF2AFE00BBEF61 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		57D178061EDF2B0200BBEF61 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57EB31421EF996D4004E1184 /* sound15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound15.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525E15B31ECA27EC0064FADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D178071EDF2B0200BBEF61 /* SystemConfiguration.framework in Frameworks */,
+				57D178051EDF2AFE00BBEF61 /* StoreKit.framework in Frameworks */,
+				57D178031EDF2AF900BBEF61 /* MessageUI.framework in Frameworks */,
+				57D178011EDF2AF400BBEF61 /* CoreMedia.framework in Frameworks */,
+				57D177FF1EDF2AEE00BBEF61 /* CoreTelephony.framework in Frameworks */,
+				57D177FD1EDF2AE900BBEF61 /* CoreGraphics.framework in Frameworks */,
+				57D177F71EDF2AC700BBEF61 /* AVFoundation.framework in Frameworks */,
+				57D177FB1EDF2AD400BBEF61 /* AudioToolbox.framework in Frameworks */,
+				57D177F91EDF2ACB00BBEF61 /* AdSupport.framework in Frameworks */,
+				57D177F51EDF2AC100BBEF61 /* EventKit.framework in Frameworks */,
+				57D177F31EDF2ABB00BBEF61 /* EventKitUI.framework in Frameworks */,
+				57D177F11EDF2A8800BBEF61 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15C91ECA27EC0064FADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15D41ECA27EC0064FADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525E15AD1ECA27EC0064FADC = {
+			isa = PBXGroup;
+			children = (
+				525E15B81ECA27EC0064FADC /* Gas_law */,
+				525E15CF1ECA27EC0064FADC /* Gas_lawTests */,
+				525E15DA1ECA27EC0064FADC /* Gas_lawUITests */,
+				525E15B71ECA27EC0064FADC /* Products */,
+				57D177EF1EDF2A8800BBEF61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		525E15B71ECA27EC0064FADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525E15B61ECA27EC0064FADC /* Gas_law.app */,
+				525E15CC1ECA27EC0064FADC /* Gas_lawTests.xctest */,
+				525E15D71ECA27EC0064FADC /* Gas_lawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525E15B81ECA27EC0064FADC /* Gas_law */ = {
+			isa = PBXGroup;
+			children = (
+				520D53FE1EE5E866003019BC /* Assets.xcassets */,
+				57567AA61EF16F13003D71FF /* negsound.wav */,
+				57567AA71EF16F13003D71FF /* possound.wav */,
+				520D53F61EE5E768003019BC /* info-with-circle.png */,
+				520D53F71EE5E768003019BC /* calculator.png */,
+				520D53F81EE5E768003019BC /* eye.png */,
+				520D53F91EE5E768003019BC /* lab-flask.png */,
+				526D11A11ED73F8C00B75774 /* soundconst.caf */,
+				526D11A21ED73F8C00B75774 /* soundvar.caf */,
+				57EB31421EF996D4004E1184 /* sound15.wav */,
+				52DC4FBB1ED61BDF00418D14 /* NeedleH.png */,
+				52DC4FB61ED6121700418D14 /* NeedleL.png */,
+				52DC4FBA1ED61BDF00418D14 /* PlacementPSITempH.png */,
+				52DC4FB41ED60A7900418D14 /* PlacementPSITempL.png */,
+				52DC4FB21ED5ED1200418D14 /* Chrysalis Logo.png */,
+				52DC4FB81ED6150B00418D14 /* Molecules Copy.png */,
+				57567AB41EF1C5BF003D71FF /* Molecules.png */,
+				521095A21ECCC36900CF7D79 /* PressurePicture.png */,
+				521095A01ECCBEE900CF7D79 /* TempMeter.jpg */,
+				525E15ED1ECA32210064FADC /* PlateP.jpg */,
+				525E15B91ECA27EC0064FADC /* AppDelegate.swift */,
+				525E15BB1ECA27EC0064FADC /* FirstViewController.swift */,
+				525E15BD1ECA27EC0064FADC /* VisualizerVC.swift */,
+				5714FA541EDDD7050058989E /* KineticMolecularTheoryViewController.swift */,
+				5714FA561EDDDB330058989E /* InfoViewController.swift */,
+				5714FA581EDDDD170058989E /* AnimateViewController.swift */,
+				5714FA5A1EDDDD9D0058989E /* TemperatureAnimation.swift */,
+				5714FA5C1EDDEC210058989E /* AboutViewController.swift */,
+				525E15BF1ECA27EC0064FADC /* Main.storyboard */,
+				525E15C41ECA27EC0064FADC /* LaunchScreen.storyboard */,
+				525E15C71ECA27EC0064FADC /* Info.plist */,
+				57D177E91EDF058F00BBEF61 /* constants.swift */,
+			);
+			path = Gas_law;
+			sourceTree = "<group>";
+		};
+		525E15CF1ECA27EC0064FADC /* Gas_lawTests */ = {
+			isa = PBXGroup;
+			children = (
+				525E15D01ECA27EC0064FADC /* Gas_lawTests.swift */,
+				525E15D21ECA27EC0064FADC /* Info.plist */,
+			);
+			path = Gas_lawTests;
+			sourceTree = "<group>";
+		};
+		525E15DA1ECA27EC0064FADC /* Gas_lawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525E15DB1ECA27EC0064FADC /* Gas_lawUITests.swift */,
+				525E15DD1ECA27EC0064FADC /* Info.plist */,
+			);
+			path = Gas_lawUITests;
+			sourceTree = "<group>";
+		};
+		57D177EF1EDF2A8800BBEF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D178061EDF2B0200BBEF61 /* SystemConfiguration.framework */,
+				57D178041EDF2AFE00BBEF61 /* StoreKit.framework */,
+				57D178021EDF2AF900BBEF61 /* MessageUI.framework */,
+				57D178001EDF2AF400BBEF61 /* CoreMedia.framework */,
+				57D177FE1EDF2AEE00BBEF61 /* CoreTelephony.framework */,
+				57D177FC1EDF2AE900BBEF61 /* CoreGraphics.framework */,
+				57D177FA1EDF2AD400BBEF61 /* AudioToolbox.framework */,
+				57D177F81EDF2ACB00BBEF61 /* AdSupport.framework */,
+				57D177F61EDF2AC700BBEF61 /* AVFoundation.framework */,
+				57D177F41EDF2AC100BBEF61 /* EventKit.framework */,
+				57D177F21EDF2ABB00BBEF61 /* EventKitUI.framework */,
+				57D177F01EDF2A8800BBEF61 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525E15B51ECA27EC0064FADC /* Gas_law */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E15E01ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_law" */;
+			buildPhases = (
+				525E15B21ECA27EC0064FADC /* Sources */,
+				525E15B31ECA27EC0064FADC /* Frameworks */,
+				525E15B41ECA27EC0064FADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gas_law;
+			productName = Gas_law;
+			productReference = 525E15B61ECA27EC0064FADC /* Gas_law.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525E15CB1ECA27EC0064FADC /* Gas_lawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E15E31ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_lawTests" */;
+			buildPhases = (
+				525E15C81ECA27EC0064FADC /* Sources */,
+				525E15C91ECA27EC0064FADC /* Frameworks */,
+				525E15CA1ECA27EC0064FADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525E15CE1ECA27EC0064FADC /* PBXTargetDependency */,
+			);
+			name = Gas_lawTests;
+			productName = Gas_lawTests;
+			productReference = 525E15CC1ECA27EC0064FADC /* Gas_lawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525E15D61ECA27EC0064FADC /* Gas_lawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525E15E61ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_lawUITests" */;
+			buildPhases = (
+				525E15D31ECA27EC0064FADC /* Sources */,
+				525E15D41ECA27EC0064FADC /* Frameworks */,
+				525E15D51ECA27EC0064FADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525E15D91ECA27EC0064FADC /* PBXTargetDependency */,
+			);
+			name = Gas_lawUITests;
+			productName = Gas_lawUITests;
+			productReference = 525E15D71ECA27EC0064FADC /* Gas_lawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525E15AE1ECA27EC0064FADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ImpactCenter;
+				TargetAttributes = {
+					525E15B51ECA27EC0064FADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XCKL3W4H78;
+						ProvisioningStyle = Manual;
+					};
+					525E15CB1ECA27EC0064FADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525E15B51ECA27EC0064FADC;
+					};
+					525E15D61ECA27EC0064FADC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525E15B51ECA27EC0064FADC;
+					};
+				};
+			};
+			buildConfigurationList = 525E15B11ECA27EC0064FADC /* Build configuration list for PBXProject "Gas_law" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525E15AD1ECA27EC0064FADC;
+			productRefGroup = 525E15B71ECA27EC0064FADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525E15B51ECA27EC0064FADC /* Gas_law */,
+				525E15CB1ECA27EC0064FADC /* Gas_lawTests */,
+				525E15D61ECA27EC0064FADC /* Gas_lawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525E15B41ECA27EC0064FADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DC4FB51ED60A7900418D14 /* PlacementPSITempL.png in Resources */,
+				520D53FD1EE5E768003019BC /* lab-flask.png in Resources */,
+				52DC4FBD1ED61BDF00418D14 /* NeedleH.png in Resources */,
+				525E15C61ECA27EC0064FADC /* LaunchScreen.storyboard in Resources */,
+				57567AA81EF16F13003D71FF /* negsound.wav in Resources */,
+				520D53FB1EE5E768003019BC /* calculator.png in Resources */,
+				52DC4FB31ED5ED1200418D14 /* Chrysalis Logo.png in Resources */,
+				57567AA91EF16F13003D71FF /* possound.wav in Resources */,
+				526D11A31ED73F8C00B75774 /* soundconst.caf in Resources */,
+				521095A31ECCC36900CF7D79 /* PressurePicture.png in Resources */,
+				520D53FA1EE5E768003019BC /* info-with-circle.png in Resources */,
+				526D11A41ED73F8C00B75774 /* soundvar.caf in Resources */,
+				52DC4FBC1ED61BDF00418D14 /* PlacementPSITempH.png in Resources */,
+				52DC4FB91ED6150B00418D14 /* Molecules Copy.png in Resources */,
+				525E15C11ECA27EC0064FADC /* Main.storyboard in Resources */,
+				52DC4FB71ED6121700418D14 /* NeedleL.png in Resources */,
+				520D53FC1EE5E768003019BC /* eye.png in Resources */,
+				525E15EE1ECA32210064FADC /* PlateP.jpg in Resources */,
+				57EB31431EF996D4004E1184 /* sound15.wav in Resources */,
+				57567AB51EF1C5BF003D71FF /* Molecules.png in Resources */,
+				520D53FF1EE5E866003019BC /* Assets.xcassets in Resources */,
+				521095A11ECCBEE900CF7D79 /* TempMeter.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15CA1ECA27EC0064FADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15D51ECA27EC0064FADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525E15B21ECA27EC0064FADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5714FA591EDDDD170058989E /* AnimateViewController.swift in Sources */,
+				525E15BE1ECA27EC0064FADC /* VisualizerVC.swift in Sources */,
+				57D177EA1EDF058F00BBEF61 /* constants.swift in Sources */,
+				525E15BA1ECA27EC0064FADC /* AppDelegate.swift in Sources */,
+				5714FA551EDDD7050058989E /* KineticMolecularTheoryViewController.swift in Sources */,
+				525E15BC1ECA27EC0064FADC /* FirstViewController.swift in Sources */,
+				5714FA571EDDDB330058989E /* InfoViewController.swift in Sources */,
+				5714FA5D1EDDEC210058989E /* AboutViewController.swift in Sources */,
+				5714FA5B1EDDDD9D0058989E /* TemperatureAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15C81ECA27EC0064FADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E15D11ECA27EC0064FADC /* Gas_lawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525E15D31ECA27EC0064FADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525E15DC1ECA27EC0064FADC /* Gas_lawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525E15CE1ECA27EC0064FADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525E15B51ECA27EC0064FADC /* Gas_law */;
+			targetProxy = 525E15CD1ECA27EC0064FADC /* PBXContainerItemProxy */;
+		};
+		525E15D91ECA27EC0064FADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525E15B51ECA27EC0064FADC /* Gas_law */;
+			targetProxy = 525E15D81ECA27EC0064FADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525E15BF1ECA27EC0064FADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525E15C01ECA27EC0064FADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525E15C41ECA27EC0064FADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525E15C51ECA27EC0064FADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525E15DE1ECA27EC0064FADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525E15DF1ECA27EC0064FADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525E15E11ECA27EC0064FADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XCKL3W4H78;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Gas_law";
+				INFOPLIST_FILE = Gas_law/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrysalis.ideal-gas-law-free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d610ad8a-f49c-41d2-91d0-679a2eb6440a";
+				PROVISIONING_PROFILE_SPECIFIER = "Ideal Gas Law Free Dev";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525E15E21ECA27EC0064FADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = XCKL3W4H78;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Gas_law";
+				INFOPLIST_FILE = Gas_law/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrysalis.ideal-gas-law-free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8c33096-8d8f-4240-ad01-2af7e3616c74";
+				PROVISIONING_PROFILE_SPECIFIER = "Ideal Gas Law Free Dist";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525E15E41ECA27EC0064FADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Gas_lawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ImpactCenter.Gas-lawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gas_law.app/Gas_law";
+			};
+			name = Debug;
+		};
+		525E15E51ECA27EC0064FADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Gas_lawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ImpactCenter.Gas-lawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gas_law.app/Gas_law";
+			};
+			name = Release;
+		};
+		525E15E71ECA27EC0064FADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Gas_lawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ImpactCenter.Gas-lawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gas_law;
+			};
+			name = Debug;
+		};
+		525E15E81ECA27EC0064FADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Gas_lawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ImpactCenter.Gas-lawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gas_law;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525E15B11ECA27EC0064FADC /* Build configuration list for PBXProject "Gas_law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E15DE1ECA27EC0064FADC /* Debug */,
+				525E15DF1ECA27EC0064FADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E15E01ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_law" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E15E11ECA27EC0064FADC /* Debug */,
+				525E15E21ECA27EC0064FADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E15E31ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_lawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E15E41ECA27EC0064FADC /* Debug */,
+				525E15E51ECA27EC0064FADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525E15E61ECA27EC0064FADC /* Build configuration list for PBXNativeTarget "Gas_lawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525E15E71ECA27EC0064FADC /* Debug */,
+				525E15E81ECA27EC0064FADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525E15AE1ECA27EC0064FADC /* Project object */;
+}
